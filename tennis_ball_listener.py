@@ -60,7 +60,7 @@ class TennisBallListener:
         
         print("Number of contours: {}".format(len(contours)))
         
-        cv2.imshow("RGB Image Contours", frame)
+        cv2.imshow("Image Contours", mask)
         cv2.imshow("Black Image Contours", black_image)
         cv2.imshow("Tennis Ball Detection", frame)
         cv2.waitKey(1)

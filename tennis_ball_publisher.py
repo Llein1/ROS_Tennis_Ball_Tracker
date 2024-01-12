@@ -44,7 +44,7 @@ class TennisBallPublisher:
 
 if __name__ == '__main__':
     try:
-        video_path = "/home/llein/catkin_ws/src/ROS_Tennis_Ball_Tracker.mp4"
+        video_path = "/kendi/video/yolunuzu/girin.mp4"
         
         publisher = TennisBallPublisher()
         
